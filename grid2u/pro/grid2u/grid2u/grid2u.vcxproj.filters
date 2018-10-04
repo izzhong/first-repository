@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\core">
+      <UniqueIdentifier>{3a966cce-2a96-4f7a-b766-e73ec605a902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\object">
+      <UniqueIdentifier>{00b548b5-44aa-44ff-8066-1a4e513265a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\geometry">
+      <UniqueIdentifier>{bd874de2-54da-43e2-ac52-b7baeb7da9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\constraint">
+      <UniqueIdentifier>{aaadde0f-1436-49f2-8a7d-7890da312c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\collision">
+      <UniqueIdentifier>{94033ae2-235a-41b7-aa58-18abafab5ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\physics">
+      <UniqueIdentifier>{8658c9d9-ab52-4595-bb2f-1bca156e02b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\core">
+      <UniqueIdentifier>{6924fbb9-a497-4892-be5c-01c8f97d99ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\geometry">
+      <UniqueIdentifier>{22ee1696-b259-456a-8457-b130d07646d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\constraint">
+      <UniqueIdentifier>{8d1d415d-7977-4bb2-b131-741c827b3155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\collision">
+      <UniqueIdentifier>{bd7f8a64-532b-4f88-a2dd-ee9608f4b6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\physics">
+      <UniqueIdentifier>{f352fd78-43a3-4e23-bdfb-ba4ae7f5494b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\object">
+      <UniqueIdentifier>{87388711-8b93-487d-833d-5f3cebac26c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\game">
+      <UniqueIdentifier>{879cde72-e83a-4e19-9113-794a10057084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\game">
+      <UniqueIdentifier>{cabfc045-0cda-4d1b-ae91-7e98a1bd1e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\grid2u">
+      <UniqueIdentifier>{4e09f7ab-512c-4886-8eb9-f6ac9b8162b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\action">
+      <UniqueIdentifier>{1ba254c8-cbf5-411f-9aa8-c5679d850a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\action">
+      <UniqueIdentifier>{c8722c80-23b6-4ceb-bc4b-34607a477446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\render">
+      <UniqueIdentifier>{b7972fc8-2e85-4db6-9b40-0433fbaad286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\render">
+      <UniqueIdentifier>{19c73529-cb4f-4330-b010-4e42e944083a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="run.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_matrix.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_vector.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_cloest_point.cpp">
+      <Filter>源文件\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_geometry.cpp">
+      <Filter>源文件\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_geometry_algorithm.cpp">
+      <Filter>源文件\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_intersection.cpp">
+      <Filter>源文件\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_seperate_detection.cpp">
+      <Filter>源文件\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_bounding.cpp">
+      <Filter>源文件\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_collision_detection.cpp">
+      <Filter>源文件\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_rigidbody.cpp">
+      <Filter>源文件\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_constraint_pipeline.cpp">
+      <Filter>源文件\constraint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_physics_pipeline.cpp">
+      <Filter>源文件\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>源文件\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_object_model.cpp">
+      <Filter>源文件\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_action.cpp">
+      <Filter>源文件\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_clocker.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\gr_render.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\code\include\gr_math.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_matrix.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_precision.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_vector.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_geometry.h">
+      <Filter>头文件\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_geometry_algorithm.h">
+      <Filter>头文件\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_intersection.h">
+      <Filter>头文件\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_constraint.h">
+      <Filter>头文件\constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_constraint_generator.h">
+      <Filter>头文件\constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_constraint_pipeline.h">
+      <Filter>头文件\constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_bounding.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_collision_pipeline.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_physics_pipeline.h">
+      <Filter>头文件\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_object_model.h">
+      <Filter>头文件\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_particle.h">
+      <Filter>头文件\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_rigidbody.h">
+      <Filter>头文件\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_collision.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>头文件\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\grid2u.h">
+      <Filter>头文件\grid2u</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_action.h">
+      <Filter>头文件\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_clocker.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_render.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\include\gr_bsp.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
